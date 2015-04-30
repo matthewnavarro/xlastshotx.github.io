@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Flir Lepton Pocketcam GUI
 ---
 Today I had the chance to use the recently released FLIR Pocketcam GUI with my FLIR Lepton PocketCam. Video walkthrough below.

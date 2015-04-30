@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: How to Create A GroupGet Campaign
 ---
 Want to create your own secure group buy campaign at GroupGets? Here is a helpful guide to help you get started.
