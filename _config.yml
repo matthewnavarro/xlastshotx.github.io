@@ -1,0 +1,19 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               GroupGetss
+tagline:             'Create or join group buys for existing products sold in high quantity or cheaper in bulk.'
+description:         'GroupGets Blog'
+url:                 http://xlastshotx.github.io/
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              GroupGets
+  url:               https://www.GroupGets.com
+  email:             Contact@GroupGets.com
