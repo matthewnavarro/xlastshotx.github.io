@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>GroupGets</title>
- <link href="http://xlastshotx.github.io/http://xlastshotx.github.io//atom.xml" rel="self"/>
- <link href="http://xlastshotx.github.io/http://xlastshotx.github.io//"/>
- <updated>2015-04-30T16:32:08-07:00</updated>
- <id>http://xlastshotx.github.io/</id>
+ <link href="http://xlastshotx.github.iohttp://xlastshotx.github.io/atom.xml" rel="self"/>
+ <link href="http://xlastshotx.github.iohttp://xlastshotx.github.io/"/>
+ <updated>2015-04-30T16:33:54-07:00</updated>
+ <id>http://xlastshotx.github.io</id>
  <author>
    <name>GroupGets</name>
    <email>Contact@GroupGets.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Installation guide for Pure Breakout Board on Raspberry Pi 2</title>
-   <link href="http://xlastshotx.github.io//2015/04/24/Installation-guide-for-Pure-Breakout-Board-on-Raspberry-Pi-2/"/>
+   <link href="http://xlastshotx.github.io/Installation-guide-for-Pure-Breakout-Board-on-Raspberry-Pi-2"/>
    <updated>2015-04-24T00:00:00-07:00</updated>
-   <id>http://xlastshotx.github.io/http://xlastshotx.github.io//2015/04/24/Installation-guide-for-Pure-Breakout-Board-on-Raspberry-Pi-2</id>
+   <id>http://xlastshotx.github.iohttp://xlastshotx.github.io/Installation-guide-for-Pure-Breakout-Board-on-Raspberry-Pi-2</id>
    <content type="html">&lt;p&gt;In this guide I will show you how to install your Pure Engineering / GroupGets Breakout board to your Raspberry Pi 2b, and install two different programs for your Lepton Thermal Imager. When you are done following this guide you will have a couple cool new ways to use your lepton thermal imager.&lt;/p&gt;
 
 &lt;p&gt;Directory
@@ -232,7 +232,7 @@ P6— Installing the “raspberrypi_video” software and required packages&lt;/
 &lt;p&gt;FLIR Lepton Thermal Imager with Shutter&lt;/p&gt;
 
 &lt;p&gt;If you liked this post, you can
-&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io//2015/04/24/Installation-guide-for-Pure-Breakout-Board-on-Raspberry-Pi-2/&amp;amp;text=Installation guide for Pure Breakout Board on Raspberry Pi 2&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io/Installation-guide-for-Pure-Breakout-Board-on-Raspberry-Pi-2&amp;amp;text=Installation guide for Pure Breakout Board on Raspberry Pi 2&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
 &lt;a href=&quot;https://twitter.com/groupgetscom&quot;&gt;
@@ -240,16 +240,16 @@ or
 
 &lt;script src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 
-&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io//2015/04/24/Installation-guide-for-Pure-Breakout-Board-on-Raspberry-Pi-2/&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
+&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io/Installation-guide-for-Pure-Breakout-Board-on-Raspberry-Pi-2&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
   &lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>Updated FLIR Lepton PocketCam GUI</title>
-   <link href="http://xlastshotx.github.io//2015/03/30/Updated-FLIR-Lepton-PocketCam-GUI/"/>
+   <link href="http://xlastshotx.github.io/Updated-FLIR-Lepton-PocketCam-GUI"/>
    <updated>2015-03-30T00:00:00-07:00</updated>
-   <id>http://xlastshotx.github.io/http://xlastshotx.github.io//2015/03/30/Updated-FLIR-Lepton-PocketCam-GUI</id>
+   <id>http://xlastshotx.github.iohttp://xlastshotx.github.io/Updated-FLIR-Lepton-PocketCam-GUI</id>
    <content type="html">&lt;p&gt;Updated FLIR Lepton PocketCam GUI&lt;/p&gt;
 
 &lt;p&gt;Hello GroupGetters,&lt;/p&gt;
@@ -271,7 +271,7 @@ or
 &lt;p&gt;FLIR has also provided us with a new and very detailed pdf containing information about the Lepton software interface that should help create interesting new applications for Lepton thermal imagers. Once again, here is a link to the new GUI software and updated documents. Happy hacking!&lt;/p&gt;
 
 &lt;p&gt;If you liked this post, you can
-&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io//2015/03/30/Updated-FLIR-Lepton-PocketCam-GUI/&amp;amp;text=Updated FLIR Lepton PocketCam GUI&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io/Updated-FLIR-Lepton-PocketCam-GUI&amp;amp;text=Updated FLIR Lepton PocketCam GUI&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
 &lt;a href=&quot;https://twitter.com/groupgetscom&quot;&gt;
@@ -279,16 +279,16 @@ or
 
 &lt;script src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 
-&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io//2015/03/30/Updated-FLIR-Lepton-PocketCam-GUI/&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
+&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io/Updated-FLIR-Lepton-PocketCam-GUI&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
   &lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>How to Create A GroupGet Campaign</title>
-   <link href="http://xlastshotx.github.io//2015/03/10/How-to-Create-A-GroupGet-Campaign/"/>
+   <link href="http://xlastshotx.github.io/How-to-Create-A-GroupGet-Campaign"/>
    <updated>2015-03-10T00:00:00-07:00</updated>
-   <id>http://xlastshotx.github.io/http://xlastshotx.github.io//2015/03/10/How-to-Create-A-GroupGet-Campaign</id>
+   <id>http://xlastshotx.github.iohttp://xlastshotx.github.io/How-to-Create-A-GroupGet-Campaign</id>
    <content type="html">&lt;p&gt;Want to create your own secure group buy campaign at GroupGets? Here is a helpful guide to help you get started.&lt;/p&gt;
 
 &lt;p&gt;Whether you are trying to get access to something hard to get due to a high minimum order quantity (MOQ), or just trying to save money on something that is much cheaper in bulk, GroupGets.com can help. Maybe you can afford a large minimum buy but don’t need or want the whole quantity and would prefer to consume more collaboratively and responsibly. We can help you find others with similar interests that would like to be part of the group buy.&lt;/p&gt;
@@ -391,7 +391,7 @@ Allow users to contact you?— Allow fellow GroupGetters to contact you via your
 &lt;p&gt;Just go here and Create your next great GroupGet campaign: https://groupgets.com/&lt;/p&gt;
 
 &lt;p&gt;If you liked this post, you can
-&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io//2015/03/10/How-to-Create-A-GroupGet-Campaign/&amp;amp;text=How to Create A GroupGet Campaign&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io/How-to-Create-A-GroupGet-Campaign&amp;amp;text=How to Create A GroupGet Campaign&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
 &lt;a href=&quot;https://twitter.com/groupgetscom&quot;&gt;
@@ -399,16 +399,16 @@ or
 
 &lt;script src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 
-&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io//2015/03/10/How-to-Create-A-GroupGet-Campaign/&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
+&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io/How-to-Create-A-GroupGet-Campaign&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
   &lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>Springing Ahead</title>
-   <link href="http://xlastshotx.github.io//2015/03/08/Springing-Ahead/"/>
+   <link href="http://xlastshotx.github.io/Springing-Ahead"/>
    <updated>2015-03-08T00:00:00-08:00</updated>
-   <id>http://xlastshotx.github.io/http://xlastshotx.github.io//2015/03/08/Springing-Ahead</id>
+   <id>http://xlastshotx.github.iohttp://xlastshotx.github.io/Springing-Ahead</id>
    <content type="html">&lt;p&gt;Springing Ahead&lt;/p&gt;
 
 &lt;p&gt;Here are some quick updates on what’s been happening at GroupGets over the past quarter. Our first campaign for the FLIR Lepton is now in its 6th public round and has shipped over 1000 units globally. Thanks again to everyone who helped to make it a success. We have since expanded our offerings from FLIR and have also picked up Hamamatsu Photonic as a manufacturing partner. Stay tuned for more products from new partners that are currently making their way to the platform.&lt;/p&gt;
@@ -422,7 +422,7 @@ or
 &lt;p&gt;Happy Hacking.&lt;/p&gt;
 
 &lt;p&gt;If you liked this post, you can
-&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io//2015/03/08/Springing-Ahead/&amp;amp;text=Springing Ahead&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io/Springing-Ahead&amp;amp;text=Springing Ahead&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
 &lt;a href=&quot;https://twitter.com/groupgetscom&quot;&gt;
@@ -430,16 +430,16 @@ or
 
 &lt;script src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 
-&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io//2015/03/08/Springing-Ahead/&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
+&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io/Springing-Ahead&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
   &lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>Flir Lepton Pocketcam GUI</title>
-   <link href="http://xlastshotx.github.io//2015/02/23/Flir-Lepton-Pocketcam-GUI/"/>
+   <link href="http://xlastshotx.github.io/Flir-Lepton-Pocketcam-GUI"/>
    <updated>2015-02-23T00:00:00-08:00</updated>
-   <id>http://xlastshotx.github.io/http://xlastshotx.github.io//2015/02/23/Flir-Lepton-Pocketcam-GUI</id>
+   <id>http://xlastshotx.github.iohttp://xlastshotx.github.io/Flir-Lepton-Pocketcam-GUI</id>
    <content type="html">&lt;p&gt;Today I had the chance to use the recently released FLIR Pocketcam GUI with my FLIR Lepton PocketCam. Video walkthrough below.&lt;/p&gt;
 
 &lt;p&gt;I encountered only one problem during the driver installation on my Windows workstation, the drivers being unsigned means that you have to disable Driver Signature Enforcement.&lt;/p&gt;
@@ -469,7 +469,7 @@ or
 &lt;p&gt;If you have been using the GUI share what you are doing with it and your Lepton in the comments!&lt;/p&gt;
 
 &lt;p&gt;If you liked this post, you can
-&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io//2015/02/23/Flir-Lepton-Pocketcam-GUI/&amp;amp;text=Flir Lepton Pocketcam GUI&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io/Flir-Lepton-Pocketcam-GUI&amp;amp;text=Flir Lepton Pocketcam GUI&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
 &lt;a href=&quot;https://twitter.com/groupgetscom&quot;&gt;
@@ -477,16 +477,16 @@ or
 
 &lt;script src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 
-&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io//2015/02/23/Flir-Lepton-Pocketcam-GUI/&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
+&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io/Flir-Lepton-Pocketcam-GUI&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
   &lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>First Campaign Milestone</title>
-   <link href="http://xlastshotx.github.io//2014/10/05/first-campaign-milestone/"/>
+   <link href="http://xlastshotx.github.io/first-campaign-milestone"/>
    <updated>2014-10-05T00:00:00-07:00</updated>
-   <id>http://xlastshotx.github.io/http://xlastshotx.github.io//2014/10/05/first-campaign-milestone</id>
+   <id>http://xlastshotx.github.iohttp://xlastshotx.github.io/first-campaign-milestone</id>
    <content type="html">&lt;p&gt;Today is an exciting milestone for the GroupGets team and its partners. We just closed our first campaign to bring a cutting-edge component directly from the manufacturer to small and independent developers throughout the world to give them access to something otherwise unattainable.&lt;/p&gt;
 
 &lt;p&gt;At the flir-lepton@googlegroups.com portal setup by Pure Engineering, we are already seeing collaboration and ideas flow before people even have their Leptons. Some of our friends have been updating the sample code at the Github repo so that the campaign backers have great building blocks on multiple platforms by the time that they get their Leptons.&lt;/p&gt;
@@ -498,7 +498,7 @@ or
 &lt;p&gt;Please note that the platform exists to enable anyone to initiate secure group buys online for anything. Since we are makers ourselves, our sponsored group buys will mostly be maker-focused, but the platform is not limited to that. Alternatively, if you are a producer of great products wanting to reach a global aggregation of smaller yet motivated makers, we want to hear from you because we know that we can help.&lt;/p&gt;
 
 &lt;p&gt;If you liked this post, you can
-&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io//2014/10/05/first-campaign-milestone/&amp;amp;text=First Campaign Milestone&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=http://xlastshotx.github.io/first-campaign-milestone&amp;amp;text=First Campaign Milestone&amp;amp;via=groupgetscom&quot; target=&quot;_blank&quot;&gt;
   share it with your followers&lt;/a&gt; 
 or 
 &lt;a href=&quot;https://twitter.com/groupgetscom&quot;&gt;
@@ -506,7 +506,7 @@ or
 
 &lt;script src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 
-&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io//2014/10/05/first-campaign-milestone/&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
+&lt;div class=&quot;g-comments&quot; data-href=&quot;http://xlastshotx.github.io/first-campaign-milestone&quot; data-width=&quot;642&quot; data-first_party_property=&quot;BLOGGER&quot; data-view_type=&quot;FILTERED_POSTMOD&quot;&gt;
   &lt;/div&gt;
 </content>
  </entry>
