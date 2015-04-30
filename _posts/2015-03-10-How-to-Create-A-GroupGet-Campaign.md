@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to Create A GroupGet Campaign
-permalink: short-urls-jekyll
 ---
 Want to create your own secure group buy campaign at GroupGets? Here is a helpful guide to help you get started.
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Installation guide for Pure Breakout Board on Raspberry Pi 2
-permalink: short-urls-jekyll
 ---
 In this guide I will show you how to install your Pure Engineering / GroupGets Breakout board to your Raspberry Pi 2b, and install two different programs for your Lepton Thermal Imager. When you are done following this guide you will have a couple cool new ways to use your lepton thermal imager.
 

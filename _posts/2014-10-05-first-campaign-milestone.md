@@ -1,7 +1,6 @@
 ---
 layout: post
 title: First Campaign Milestone
-permalink: short-urls-jekyll
 ---
 Today is an exciting milestone for the GroupGets team and its partners. We just closed our first campaign to bring a cutting-edge component directly from the manufacturer to small and independent developers throughout the world to give them access to something otherwise unattainable.
 

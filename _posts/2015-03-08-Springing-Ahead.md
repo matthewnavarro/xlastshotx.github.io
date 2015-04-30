@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Springing Ahead
-permalink: short-urls-jekyll
 ---
 Springing Ahead
 

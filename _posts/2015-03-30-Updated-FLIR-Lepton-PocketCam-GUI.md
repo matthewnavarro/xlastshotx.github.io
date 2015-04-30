@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Updated FLIR Lepton PocketCam GUI
-permalink: short-urls-jekyll
 ---
 Updated FLIR Lepton PocketCam GUI
 
