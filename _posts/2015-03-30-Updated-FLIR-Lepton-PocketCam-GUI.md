@@ -31,5 +31,3 @@ You can also take still images from within the software. Here’s some more soda
 FLIR has also provided us with a new and very detailed pdf containing information about the Lepton software interface that should help create interesting new applications for Lepton thermal imagers. Once again, here is a link to the new GUI software and updated documents. Happy hacking!
 
 {% include twitter_plug.html %}
-
-{% include comments.html %}

@@ -279,5 +279,3 @@ So this concludes this guide, if you have any suggestions or changes please post
 FLIR Lepton Thermal Imager with Shutter
 
 {% include twitter_plug.html %}
-
-{% include comments.html %}

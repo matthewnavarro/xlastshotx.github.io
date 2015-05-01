@@ -108,5 +108,3 @@ Ready to get started?
 Just go here and Create your next great GroupGet campaign: https://groupgets.com/
 
 {% include twitter_plug.html %}
-
-{% include comments.html %}

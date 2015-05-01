@@ -73,5 +73,3 @@ Overall getting everything set up and running was easy with minimal problems.
 If you have been using the GUI share what you are doing with it and your Lepton in the comments!
 
 {% include twitter_plug.html %}
-
-{% include comments.html %}

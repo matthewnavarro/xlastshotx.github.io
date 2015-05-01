@@ -14,5 +14,3 @@ From the bottom of our hearts we thank everyone that helped to make this a succe
 Please note that the platform exists to enable anyone to initiate secure group buys online for anything. Since we are makers ourselves, our sponsored group buys will mostly be maker-focused, but the platform is not limited to that. Alternatively, if you are a producer of great products wanting to reach a global aggregation of smaller yet motivated makers, we want to hear from you because we know that we can help.
 
 {% include twitter_plug.html %}
-
-{% include comments.html %}

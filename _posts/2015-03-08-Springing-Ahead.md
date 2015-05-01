@@ -16,5 +16,3 @@ We look forward enabling more innovation and democratized access worldwide. Weâ€
 Happy Hacking.
 
 {% include twitter_plug.html %}
-
-{% include comments.html %}
