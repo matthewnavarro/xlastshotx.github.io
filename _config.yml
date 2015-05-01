@@ -5,11 +5,11 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               GroupGets
+tagline:             Blog
+url:                 http://xlastshotx.github.io/
 paginate:            1
-baseurl:             ""
+baseurl:             "http://xlastshotx.github.io"
 
 # Assets
 #
@@ -20,11 +20,6 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             1.0.0
-github:
-  repo:              https://github.com/poole/poole
+  name:              GroupGets
+  url:               https://www.GroupGets.com
+  email:             Contact@GroupGets.com
