@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               GroupGets
 tagline:             Blog
 url:                 http://xlastshotx.github.io/
-paginate:            1
+paginate:            10
 baseurl:             "http://xlastshotx.github.io"
 
 # Assets
