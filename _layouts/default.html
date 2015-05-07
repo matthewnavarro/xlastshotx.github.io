@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <header class="masthead">
+      <a href="http://localhost:4000/"><img src="https://groupgets-files.s3.amazonaws.com/blog/assets/gg-brand.png"></a><!--URLCHANGE-->
+    </header>
+
+    <div class="past-posts">
+      <ul class="post-top">
+        {% for post in site.posts limit:5 %}
+           <li>
+             <span>{{ post.date | date_to_string }}</span> &raquo;
+             <a href="{{ BASE_PATH }}{{ post.url }}">
+             {{ post.title }}</a>
+           </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="container content">
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> GroupGets LLC • Santa Barbara, California
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>

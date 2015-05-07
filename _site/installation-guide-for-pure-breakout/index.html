@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Installation guide for Pure Breakout Board on Raspberry Pi 2 &middot; GroupGets
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="GroupGets" href="/atom.xml">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+    <header class="masthead">
+      <a href="http://localhost:4000/"><img src="https://groupgets-files.s3.amazonaws.com/blog/assets/gg-brand.png"></a><!--URLCHANGE-->
+    </header>
+
+    <div class="past-posts">
+      <ul class="post-top">
+        
+           <li>
+             <span>24 Apr 2015</span> &raquo;
+             <a href="/installation-guide-for-pure-breakout">
+             Installation guide for Pure Breakout Board on Raspberry Pi 2</a>
+           </li>
+        
+           <li>
+             <span>30 Mar 2015</span> &raquo;
+             <a href="/updated-flir-lepton-pocketcam-gui">
+             Updated FLIR Lepton PocketCam GUI</a>
+           </li>
+        
+           <li>
+             <span>10 Mar 2015</span> &raquo;
+             <a href="/how-to-create-a-groupget-campaign">
+             How to Create A GroupGet Campaign</a>
+           </li>
+        
+           <li>
+             <span>08 Mar 2015</span> &raquo;
+             <a href="/springing-ahead">
+             Springing Ahead</a>
+           </li>
+        
+           <li>
+             <span>23 Feb 2015</span> &raquo;
+             <a href="/flir-lepton-pocketcam-gui">
+             Flir Lepton Pocketcam GUI</a>
+           </li>
+        
+      </ul>
+    </div>
+
+    <div class="container content">
+      <main>
+        <article class="post">
+  <h1 class="post-title">Installation guide for Pure Breakout Board on Raspberry Pi 2</h1>
+  <time datetime="2015-04-24T00:00:00-07:00" class="post-date">24 Apr 2015</time>
+  <div class="hi">
+<img src="https://groupgets-files.s3.amazonaws.com/blog/posts/installation_guide_for_pure_breakout_board_on_raspberry_pi_2-banner.jpg" />
+</div>
+<p>In this guide I will show you how to install your Pure Engineering / GroupGets Breakout board to your Raspberry Pi 2b, and install two different programs for your Lepton Thermal Imager. When you are done following this guide you will have a couple cool new ways to use your lepton thermal imager.</p>
+
+<p>Directory
+P1 — Formatting the microSD Card
+P1a — Windows
+P1b — Mac OS
+P1c — Linux
+P2 — Transferring NOOBS OS to the Micro SD Card
+P3 — Connect the Pure Breakout board to the Raspberry Pi 2b
+P4 — Installing Raspian, configuring the Pi, and logging into your Raspberry Pi2
+P4a — Installing Raspian
+P4b — Configuring the Pi
+P4c — Logging into your Raspberry Pi2
+P5— Installing Thermal video overlay “pylepton” and required packages
+P6 — Installing the “raspberrypi_video” software and required packages
+Required Parts
+1x Raspberry Pi 2b (it will work on the Pi 1 but some of the following instructions may not be the same)
+1x MicroSD Card 8GB or larger.
+1x FLIR Lepton Thermal Imager (any version is fine)
+1x Pure Engineering/GroupGets Lepton Breakout Board
+8x Female to Female jumper wires
+1x Keyboard and Mouse
+1x Micro USB cable and wall adaptor
+1x Monitor with HDMI port or HDMI to DVI converter
+1x HDMI cable
+1x Ethernet cable
+1x Raspberry PI 5MP Camera Board Module (optional, only needed for thermal image overlay)
+P1 — Formatting the microSD Card</p>
+
+<p>P1a — Windows
+1 — Follow this link and accept the agreement and download SDFormatter. Once downloaded follow the installation instructions. Then open the program and follow the steps below.</p>
+
+<p>2— Insert your microSD card into your computer then Open SDFormatter V4.0. Make sure that the Drive letter is correct.</p>
+
+<p>3 — Select Option and choose “FULL (Erase)” for the format type, and “ON” for the format size adjustment. Then press OK.</p>
+
+<p>4 — When formatting is complete press OK and close the program.</p>
+
+<p>P1b — Mac OS</p>
+
+<p>1 — Select the SD card volume and choose Erase with MS-DOS format.</p>
+
+<p>P1c — Linux
+1 — Go here and follow Norman Dunbar’s guide to format your microSD card in Linux.</p>
+
+<p>P2 — Transferring NOOBS OS to the Micro SD Card</p>
+
+<p>1 — Go to https://www.raspberrypi.org/downloads/ and download “NOOBS” (New Out Of the Box Software).</p>
+
+<p>2 — Once the download is complete right click the file and select “Extract All”.</p>
+
+<p>3 — Extract the file to your Desktop.</p>
+
+<p>4 — Now open the folder that you extracted and open your micro sd card. Then drag all of the files within the NOOBS_v1_4_0 folder to your microSD card.</p>
+
+<p>5 — Once the transfer is complete insert your microSD card into your Raspberry Pi 2b.</p>
+
+<p>P3 — Connect the Pure Breakout board to the Raspberry Pi 2b</p>
+
+<p>1 — Match your female to female jumpers wires to the images below (note: your jumper wires may differ in color). You can also use the list below.</p>
+
+<p>CS -&gt; Pin 24, CE0
+MOSI -&gt; Pin 19, MOSI
+MISO -&gt; Pin 21, MISO
+CLK -&gt; Pin 23, CLK
+GND -&gt; Pin 25, GND
+VIN -&gt; Pin 1, 3V3
+SDA -&gt; Pin 3, SDA
+SCL -&gt; Pin 5, SCL</p>
+
+<p>2 — Once you have attached the breakout board, connect your monitor, keyboard, mouse, ethernet cable, and finally the micro USB cable to power the board.</p>
+
+<p>P4 — Installing Raspian, configuring the Pi, and logging into your Raspberry Pi2</p>
+
+<p>P4a — Installing Raspian</p>
+
+<p>1 — Select the checkbox next to “Raspian”, then set your Language at the bottom, and finally click Install.</p>
+
+<p>P4b — Configuring the Pi
+1— When installation is complete use the arrow keys on your keyboard and select option 8 “Advanced Options”.</p>
+
+<p>2 — Now select option A “SPI”.</p>
+
+<p>3— Select “Yes” to enable the SPI interface.</p>
+
+<p>4 — Press “Ok”.</p>
+
+<p>5— Select “Yes” to load the SPI kernel by default.</p>
+
+<p>6 — Press “Ok”.</p>
+
+<p>7 — Again select option 8 “Advanced Options”.</p>
+
+<p>8 — Now select option A7 “I2C”.</p>
+
+<p>9 — Select “Yes” to enable the I2C interface.</p>
+
+<p>10 — Press “Ok”.</p>
+
+<p>11 — Select “Yes” to load the I2C interface by default.</p>
+
+<p>12 — Press “Ok”.</p>
+
+<p>13— If you have the Raspberry PI 5MP Camera Board Module select option 8 “Advanced Options” and press Enter, if you do not have the Pi Cam skip to step 16 in this section.</p>
+
+<p>14 — Now select option 5 “Enable Camera” and press Enter.</p>
+
+<p>15— Select “Enable” and press Enter.</p>
+
+<p>16— Now select “Finish” located on the lower right hand corner.</p>
+
+<p>17— Select “Yes” to reboot the Raspberry Pi.</p>
+
+<p>P4c — Logging into your Raspberry Pi2</p>
+
+<p>1 — After the Pi has rebooted you will see the following. Enter pi and press Enter.</p>
+
+<p>2 — Now enter raspberry and press Enter.</p>
+
+<p>P5 — Installing Thermal video overlay “pylepton” and required packages</p>
+
+<p>1 — To use the thermal video overlay you must have a Raspberry PI 5MP Camera Board Module installed and enabled.</p>
+
+<p>2— Type the following then press Enter.</p>
+
+<p>sudo apt-get install python-opencv</p>
+
+<p>3— When you see this type y and press Enter.</p>
+
+<p>4 — Now type the following and press Enter.</p>
+
+<p>git clone https://github.com/kekiefer/pylepton.git</p>
+
+<p>5 — Once that is complete type what’s below and press Enter.</p>
+
+<p>cd pylepton</p>
+
+<p>6 — Now type the following and press Enter.</p>
+
+<p>7 — Now type the following and press Enter to start the overlay software. -a 155 is the alpha (transparency) value for the thermal image, -a 255 being 100% thermal image and -a 0 being 0% thermal image. You can see other commands by typing pylepton_overlay –help.</p>
+
+<p>pylepton_overlay -a 155</p>
+
+<p>8 — A screenshot of the overlayed thermal video at -a 155. To stop the program from running press ctrl+c.</p>
+
+<p>9 — To take a picture using the Lepton type the following. This will save an image to the directory that you are currently in, in this case /home/pi/pylepton. You can see other commands by typing pylepton_capture –help.</p>
+
+<p>pylepton_capture output.png</p>
+
+<p>Image from the capture (resized)
+P6— Installing the “raspberrypi_video” software and required packages</p>
+
+<p>1— Type startx to load into the Raspian GUI.</p>
+
+<p>2— Open Terminal</p>
+
+<p>3— Type the following then press Enter to install part of the qt4-dev-tools.</p>
+
+<p>sudo apt-get install qt4-dev-tools</p>
+
+<p>4 — Type y and press Enter when you see the following screen.</p>
+
+<p>5 — When that is complete type the following and press Enter.</p>
+
+<p>sudo apt-get update</p>
+
+<p>6 — When that finishes type the follow and press Enter.</p>
+
+<p>sudo apt-get upgrade</p>
+
+<p>7 —Type y and press Enter when you see the following screen.</p>
+
+<p>8— When that is done type the following and press Enter, this will install the rest of qt4-dev-tools.</p>
+
+<p>sudo apt-get install qt4-dev-tools</p>
+
+<p>9— Type y and press Enter when you see the following screen.</p>
+
+<p>10 — After that is complete type the following and press Enter.</p>
+
+<p>git clone https://www.github.com/PureEngineering/LeptonModule.git</p>
+
+<p>11— Now type the follow and press Enter.</p>
+
+<p>cd LeptonModule/raspberrypi_video/leptonSDKEmb32PUB</p>
+
+<p>12 — Now type make and press Enter.</p>
+
+<p>13— Type cd .. and press Enter.</p>
+
+<p>14 — Then type qmake &amp;&amp; make and press Enter.</p>
+
+<p>15 — You must change the position of one of your jumper wires from:</p>
+
+<p>CS -&gt; Pin 24, CE0</p>
+
+<p>to</p>
+
+<p>CS -&gt; Pin 26, CE1</p>
+
+<p>16 — Once you have moved the jumper type the following.</p>
+
+<p>sudo ./raspberrypi_video</p>
+
+<p>17— You should see a new window pop up, if you see a red square instead of an image you must remove the Lepton thermal imager from the breakout board and re-insert it back into the breakout board while everything is still on. Be extremely careful as to not damage the Lepton or breakout board.</p>
+
+<p>16 — Now you should see a thermal image using the raspberrypi_video software!</p>
+
+<p>So this concludes this guide, if you have any suggestions or changes please post them in the comments. The Lepton thermal imagers are available below with the Pure breakout board available as an add on:</p>
+
+<p>25° FLIR Lepton Thermal Imager</p>
+
+<p>FLIR Lepton Thermal Imager with Shutter</p>
+
+</article>
+
+<div class="share">
+<h3>Share this article</h3>
+  <a href="https://twitter.com/intent/tweet?url=http://localhost:4000/installation-guide-for-pure-breakout&text=Installation guide for Pure Breakout Board on Raspberry Pi 2&via=groupgetscom" 
+   target="_blank"><i class="fa fa-twitter"></i></a>
+  <a href="https://facebook.com/sharer.php?u=http://localhost:4000/installation-guide-for-pure-breakout" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://plus.google.com/share?url=http://localhost:4000/installation-guide-for-pure-breakout" rel="nofollow" target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i></a>
+  <a href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/installation-guide-for-pure-breakout&description=Installation guide for Pure Breakout Board on Raspberry Pi 2" target="_blank"><i class="fa fa-pinterest"></i></a>
+  <a href="http://www.reddit.com/submit?url=http://localhost:4000/installation-guide-for-pure-breakout&title=Installation guide for Pure Breakout Board on Raspberry Pi 2" target="_blank"><i class="fa fa-reddit"></i></a>
+</div><br>
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="2015-05-06T18:30:05-07:00">2015</time> GroupGets LLC • Santa Barbara, California
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>
