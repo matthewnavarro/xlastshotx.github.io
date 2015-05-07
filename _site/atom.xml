@@ -4,7 +4,7 @@
  <title>GroupGets</title>
  <link href="http://localhost:4000//atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2015-05-06T19:19:59-07:00</updated>
+ <updated>2015-05-07T12:38:19-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>GroupGets</name>
@@ -409,31 +409,50 @@ Allow users to contact you?— Allow fellow GroupGetters to contact you via your
 &lt;/div&gt;
 &lt;p&gt;Today I had the chance to use the recently released FLIR Pocketcam GUI with my FLIR Lepton PocketCam. Video walkthrough below.&lt;/p&gt;
 
+&lt;iframe src=&quot;https://player.vimeo.com/video/122367662?byline=0&quot; width=&quot;800&quot; height=&quot;450&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;I encountered only one problem during the driver installation on my Windows workstation, the drivers being unsigned means that you have to disable Driver Signature Enforcement.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/1.png&quot; alt=&quot;Windows problem&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Below are the steps to temporarily disable this in Windows 8/8.1 or Windows Server 2012 R2:&lt;/p&gt;
 
 &lt;p&gt;First press Restart while holding down the shift key&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/2.png&quot; alt=&quot;Computer Picture&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;You will see the following screen after your computer has restarted. Select troubleshoot&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/3.png&quot; alt=&quot;Choose option&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then click startup settings&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/4.png&quot; alt=&quot;Advanced option&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Now restart again&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/5.png&quot; alt=&quot;Startup Settings&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;On Windows Server 2012 you will see the screen on the left, choose Disable Driver Signature Enforcement. On Windows 8/8.1 you will see the screen on the right, press 7&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/6.png&quot; alt=&quot;Options&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Windows will now start up with driver signature enforcement disabled until the next restart.&lt;/p&gt;
 
-&lt;p&gt;Now you can install the driver. Instructions on how to install the driver are provided in this file “PocketCam_UserInstallation_Guide(WINDOWS).pdf”.&lt;/p&gt;
+&lt;p&gt;Now you can install the driver. Instructions on how to install the driver are provided in &lt;a href=&quot;http://www.groupgets.net/Lepton_Foxcam_Demo.zip&quot;&gt;this file&lt;/a&gt; “PocketCam_UserInstallation_Guide(WINDOWS).pdf”.&lt;/p&gt;
 
 &lt;p&gt;After I completed the driver setup I ran “FC_USB.exe” in the Software folder then turned on and plugged in my FLIR Lepton PocketCam into my workstation.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/7.png&quot; alt=&quot;FoxCamDemo&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Pressed start… It works!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/8.png&quot; alt=&quot;Works&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Overall getting everything set up and running was easy with minimal problems.&lt;/p&gt;
 
-&lt;p&gt;If you have been using the GUI share what you are doing with it and your Lepton in the comments!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://groupgets-files.s3.amazonaws.com/blog/posts/flir_lepton_pocketcam_gui/9.png&quot; alt=&quot;Thermal Cooking&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
